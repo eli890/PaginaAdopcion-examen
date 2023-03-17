@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.barra_navegacion{
+    background-image: url(img/5508800.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 350px;
+}
+li{
+   list-style-type: none;
+   margin:10px 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+a:hover{
+   text-decoration: underline;
+}
+ul{
+    display: flex;
+    float: right;
+    line-height: 50px;
+}
+h1{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 1px 0px 10px #1a010f;
+    -webkit-text-stroke: 2px palevioletred;
+     color: rgb(255, 255, 255); 
+}
+img{
+    width: 60px;
+    height: 60px;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+}
+.b1{
+    background-color: #ffbdc1;
+    margin-left: 500px;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+.b1:hover{
+    background-color: palevioletred;
+    color: azure;
+}
+.linea{
+    border-top: 0px solid black;
+}
+.contenedor{
+    width: 100%;
+    height: 350px;
+    opacity: 1;
+}
+.con-img{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;  
+}
+.imagen img{
+width: 300px;
+height: 300px;
+display: flex;
+margin-left: 5px;
+border-radius: 5px;
+   
+}
+.overlay{
+    position: absolute;
+    background-color: #ffb0f3;
+    width: 300px;
+    height: 0px;
+    display: flex;
+    margin-left: 5px;
+    border-radius: 5px;
+    bottom: -530px;
+    transition: .5 ease;
+    overflow: hidden;
+    opacity: 0.5;
+}
+.overlay p{
+    color: #1a010f;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+.imagen:hover .overlay{
+    height: 300px;
+    cursor: pointer;
+    box-shadow:5px 5px 10px 10px #ffbdc1;
+
+  
+}
+.formulario-donacion{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 510px;
+    border-radius: 50px;
+    box-shadow:5px 5px 10px 10px #121111;
+    opacity: 1;
+}
+.do1{
+    width: 100%;
+    height: 600px;
+    background-color:#ffbcd2;
+    opacity: 1;
+}
+.b2{
+    background-color: #ffbdc1;
+    width: 100px;
+    height: 50px;
+    -webkit-text-stroke: 2px rgb(214, 5, 75);
+    color: rgb(255, 255, 255); 
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+
+
+
+}
+label{
+    font-size: 20px;
+    color: #ffb0f3;
+}
+#pie-pagina{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/5508800.jpg);
+    background-size:cover;
+
+}
